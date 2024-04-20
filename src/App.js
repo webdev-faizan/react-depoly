@@ -3,16 +3,14 @@ import "./App.css";
 
 function App() {
   const name = process.env.name;
-  console.log(name)
+  console.log(name);
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          faizan ali 
-
-          Edit <code>src/App.js</code> and save to reload.
+          faizan ali Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -20,11 +18,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-
-          
-
-
           Learn Reacts
+          {process.env.USER_NMAE}
         </a>
       </header>
     </div>
