@@ -19,7 +19,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn Reacts
-          {process.env.USER_NMAE}
+          {process.env.USER_NMAE} last check
         </a>
       </header>
     </div>
